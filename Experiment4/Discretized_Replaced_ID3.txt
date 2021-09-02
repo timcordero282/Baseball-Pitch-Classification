@@ -1,0 +1,339 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.Id3 
+Relation:     Cleaned_mariners-vs-astros-weka.filters.unsupervised.attribute.Discretize-O-B4-M-1.0-Rfirst-last-precision6-weka.filters.unsupervised.attribute.ReplaceMissingValues
+Instances:    264
+Attributes:   28
+              inning
+              top_or_bottom
+              atbat_num_within_game
+              batter_name
+              batter_team
+              stand
+              pitcher_name
+              pitcher_team
+              p_throws
+              home_team_runs
+              away_team_runs
+              pitch_type_name
+              pitch_type_confidence
+              balls
+              strikes
+              last_pitch_in_atbat
+              pitch_num_within_atbat
+              break_angle
+              break_length
+              break_y
+              start_speed
+              end_speed
+              spin_dir
+              spin_rate
+              sz_bot
+              sz_top
+              zone
+              decision
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Id3
+
+
+zone = '(-inf-4.25]'
+|  batter_name = Jean Segura: Strike
+|  batter_name = Benjamin Gamel: Strike
+|  batter_name = Robinson Cano: Strike
+|  batter_name = George Springer: Strike
+|  batter_name = Jose Altuve: Strike
+|  batter_name = Josh Reddick: Strike
+|  batter_name = Carlos Beltran: Strike
+|  batter_name = Yulieski Gurriel: Strike
+|  batter_name = Marwin Gonzalez: Strike
+|  batter_name = Nelson Cruz: Strike
+|  batter_name = Kyle Seager: null
+|  batter_name = Danny Valencia: null
+|  batter_name = Evan Gattis: Strike
+|  batter_name = Nori Aoki: Ball
+|  batter_name = Alex Bregman
+|  |  balls = '(-inf-0.75]': Strike
+|  |  balls = '(0.75-1.5]': null
+|  |  balls = '(1.5-inf)': Ball
+|  batter_name = Jarrod Dyson: Strike
+|  batter_name = Carlos Ruiz: Strike
+|  batter_name = Guillermo Heredia: null
+zone = '(4.25-7.5]': Strike
+zone = '(7.5-10.75]'
+|  batter_name = Jean Segura: Strike
+|  batter_name = Benjamin Gamel: Strike
+|  batter_name = Robinson Cano: Strike
+|  batter_name = George Springer: Strike
+|  batter_name = Jose Altuve: Strike
+|  batter_name = Josh Reddick: null
+|  batter_name = Carlos Beltran: Strike
+|  batter_name = Yulieski Gurriel: null
+|  batter_name = Marwin Gonzalez: Strike
+|  batter_name = Nelson Cruz: Strike
+|  batter_name = Kyle Seager: Ball
+|  batter_name = Danny Valencia: Strike
+|  batter_name = Evan Gattis: Strike
+|  batter_name = Nori Aoki: Strike
+|  batter_name = Alex Bregman
+|  |  pitch_type_name = slider: Ball
+|  |  pitch_type_name = two-seam fastball: null
+|  |  pitch_type_name = four-seam fastball: null
+|  |  pitch_type_name = knuckle curveball: null
+|  |  pitch_type_name = sinker: Strike
+|  |  pitch_type_name = curveball: null
+|  |  pitch_type_name = changeup: null
+|  batter_name = Jarrod Dyson: Strike
+|  batter_name = Carlos Ruiz
+|  |  inning = '(-inf-3]': Strike
+|  |  inning = '(3-5]': Ball
+|  |  inning = '(5-7]': null
+|  |  inning = '(7-inf)': null
+|  batter_name = Guillermo Heredia: null
+zone = '(10.75-inf)'
+|  last_pitch_in_atbat = '(-inf-0.25]'
+|  |  batter_name = Jean Segura: Ball
+|  |  batter_name = Benjamin Gamel
+|  |  |  pitch_type_name = slider: null
+|  |  |  pitch_type_name = two-seam fastball: Ball
+|  |  |  pitch_type_name = four-seam fastball: Strike
+|  |  |  pitch_type_name = knuckle curveball
+|  |  |  |  inning = '(-inf-3]': Ball
+|  |  |  |  inning = '(3-5]': Strike
+|  |  |  |  inning = '(5-7]': null
+|  |  |  |  inning = '(7-inf)': null
+|  |  |  pitch_type_name = sinker: null
+|  |  |  pitch_type_name = curveball: null
+|  |  |  pitch_type_name = changeup: null
+|  |  batter_name = Robinson Cano
+|  |  |  spin_dir = '(-inf-92.50075]': Ball
+|  |  |  spin_dir = '(92.50075-180.9785]': Strike
+|  |  |  spin_dir = '(180.9785-269.45625]'
+|  |  |  |  strikes = '(-inf-0.5]': Strike
+|  |  |  |  strikes = '(0.5-inf)': Ball
+|  |  |  spin_dir = '(269.45625-inf)': Strike
+|  |  batter_name = George Springer
+|  |  |  home_team_runs = '(-inf-1.5]'
+|  |  |  |  pitch_type_name = slider: Strike
+|  |  |  |  pitch_type_name = two-seam fastball: null
+|  |  |  |  pitch_type_name = four-seam fastball: null
+|  |  |  |  pitch_type_name = knuckle curveball: null
+|  |  |  |  pitch_type_name = sinker: Ball
+|  |  |  |  pitch_type_name = curveball: null
+|  |  |  |  pitch_type_name = changeup: null
+|  |  |  home_team_runs = '(1.5-3]': Ball
+|  |  |  home_team_runs = '(3-4.5]': null
+|  |  |  home_team_runs = '(4.5-inf)': Ball
+|  |  batter_name = Jose Altuve
+|  |  |  home_team_runs = '(-inf-1.5]': Strike
+|  |  |  home_team_runs = '(1.5-3]': Ball
+|  |  |  home_team_runs = '(3-4.5]'
+|  |  |  |  away_team_runs = '(-inf-0.5]'
+|  |  |  |  |  pitch_type_name = slider: Ball
+|  |  |  |  |  pitch_type_name = two-seam fastball: null
+|  |  |  |  |  pitch_type_name = four-seam fastball: null
+|  |  |  |  |  pitch_type_name = knuckle curveball: null
+|  |  |  |  |  pitch_type_name = sinker: Strike
+|  |  |  |  |  pitch_type_name = curveball: null
+|  |  |  |  |  pitch_type_name = changeup: null
+|  |  |  |  away_team_runs = '(0.5-inf)': Ball
+|  |  |  home_team_runs = '(4.5-inf)'
+|  |  |  |  balls = '(-inf-0.75]': Ball
+|  |  |  |  balls = '(0.75-1.5]': Strike
+|  |  |  |  balls = '(1.5-inf)': null
+|  |  batter_name = Josh Reddick
+|  |  |  pitch_type_name = slider
+|  |  |  |  spin_dir = '(-inf-92.50075]': Strike
+|  |  |  |  spin_dir = '(92.50075-180.9785]': Strike
+|  |  |  |  spin_dir = '(180.9785-269.45625]': null
+|  |  |  |  spin_dir = '(269.45625-inf)': Ball
+|  |  |  pitch_type_name = two-seam fastball: null
+|  |  |  pitch_type_name = four-seam fastball: Ball
+|  |  |  pitch_type_name = knuckle curveball: null
+|  |  |  pitch_type_name = sinker: Ball
+|  |  |  pitch_type_name = curveball: Ball
+|  |  |  pitch_type_name = changeup: Ball
+|  |  batter_name = Carlos Beltran
+|  |  |  pitch_num_within_atbat = '(-inf-3]'
+|  |  |  |  pitch_type_name = slider: Ball
+|  |  |  |  pitch_type_name = two-seam fastball: Ball
+|  |  |  |  pitch_type_name = four-seam fastball: Strike
+|  |  |  |  pitch_type_name = knuckle curveball: null
+|  |  |  |  pitch_type_name = sinker: Ball
+|  |  |  |  pitch_type_name = curveball: Ball
+|  |  |  |  pitch_type_name = changeup: Ball
+|  |  |  pitch_num_within_atbat = '(3-5]': Strike
+|  |  |  pitch_num_within_atbat = '(5-7]': Strike
+|  |  |  pitch_num_within_atbat = '(7-inf)': null
+|  |  batter_name = Yulieski Gurriel: Ball
+|  |  batter_name = Marwin Gonzalez
+|  |  |  pitch_type_name = slider
+|  |  |  |  inning = '(-inf-3]': Strike
+|  |  |  |  inning = '(3-5]': null
+|  |  |  |  inning = '(5-7]': Ball
+|  |  |  |  inning = '(7-inf)': null
+|  |  |  pitch_type_name = two-seam fastball: Ball
+|  |  |  pitch_type_name = four-seam fastball: null
+|  |  |  pitch_type_name = knuckle curveball: null
+|  |  |  pitch_type_name = sinker: Strike
+|  |  |  pitch_type_name = curveball: Ball
+|  |  |  pitch_type_name = changeup: Ball
+|  |  batter_name = Nelson Cruz
+|  |  |  inning = '(-inf-3]': Ball
+|  |  |  inning = '(3-5]': Ball
+|  |  |  inning = '(5-7]': null
+|  |  |  inning = '(7-inf)'
+|  |  |  |  pitch_type_name = slider: Strike
+|  |  |  |  pitch_type_name = two-seam fastball: Ball
+|  |  |  |  pitch_type_name = four-seam fastball: null
+|  |  |  |  pitch_type_name = knuckle curveball: null
+|  |  |  |  pitch_type_name = sinker: null
+|  |  |  |  pitch_type_name = curveball: null
+|  |  |  |  pitch_type_name = changeup: null
+|  |  batter_name = Kyle Seager
+|  |  |  break_length = '(-inf-6.075]'
+|  |  |  |  inning = '(-inf-3]': Strike
+|  |  |  |  inning = '(3-5]': null
+|  |  |  |  inning = '(5-7]': Ball
+|  |  |  |  inning = '(7-inf)': null
+|  |  |  break_length = '(6.075-9.15]'
+|  |  |  |  inning = '(-inf-3]': Strike
+|  |  |  |  inning = '(3-5]': Ball
+|  |  |  |  inning = '(5-7]': Strike
+|  |  |  |  inning = '(7-inf)': Strike
+|  |  |  break_length = '(9.15-12.225]': Ball
+|  |  |  break_length = '(12.225-inf)': Ball
+|  |  batter_name = Danny Valencia
+|  |  |  inning = '(-inf-3]': Ball
+|  |  |  inning = '(3-5]': Ball
+|  |  |  inning = '(5-7]'
+|  |  |  |  pitch_type_name = slider: Strike
+|  |  |  |  pitch_type_name = two-seam fastball: Strike
+|  |  |  |  pitch_type_name = four-seam fastball: null
+|  |  |  |  pitch_type_name = knuckle curveball: Ball
+|  |  |  |  pitch_type_name = sinker: null
+|  |  |  |  pitch_type_name = curveball: null
+|  |  |  |  pitch_type_name = changeup: null
+|  |  |  inning = '(7-inf)': Strike
+|  |  batter_name = Evan Gattis
+|  |  |  inning = '(-inf-3]': null
+|  |  |  inning = '(3-5]': Strike
+|  |  |  inning = '(5-7]': Ball
+|  |  |  inning = '(7-inf)': null
+|  |  batter_name = Nori Aoki
+|  |  |  break_length = '(-inf-6.075]'
+|  |  |  |  inning = '(-inf-3]': null
+|  |  |  |  inning = '(3-5]': Strike
+|  |  |  |  inning = '(5-7]': Ball
+|  |  |  |  inning = '(7-inf)': null
+|  |  |  break_length = '(6.075-9.15]': Ball
+|  |  |  break_length = '(9.15-12.225]'
+|  |  |  |  pitch_num_within_atbat = '(-inf-3]': Strike
+|  |  |  |  pitch_num_within_atbat = '(3-5]': Ball
+|  |  |  |  pitch_num_within_atbat = '(5-7]': null
+|  |  |  |  pitch_num_within_atbat = '(7-inf)': null
+|  |  |  break_length = '(12.225-inf)': Strike
+|  |  batter_name = Alex Bregman
+|  |  |  spin_dir = '(-inf-92.50075]': Strike
+|  |  |  spin_dir = '(92.50075-180.9785]': null
+|  |  |  spin_dir = '(180.9785-269.45625]': Ball
+|  |  |  spin_dir = '(269.45625-inf)': Ball
+|  |  batter_name = Jarrod Dyson
+|  |  |  pitch_type_name = slider
+|  |  |  |  inning = '(-inf-3]': Strike
+|  |  |  |  inning = '(3-5]': Ball
+|  |  |  |  inning = '(5-7]': null
+|  |  |  |  inning = '(7-inf)': null
+|  |  |  pitch_type_name = two-seam fastball
+|  |  |  |  strikes = '(-inf-0.5]': Ball
+|  |  |  |  strikes = '(0.5-inf)': Strike
+|  |  |  pitch_type_name = four-seam fastball: Ball
+|  |  |  pitch_type_name = knuckle curveball: Ball
+|  |  |  pitch_type_name = sinker: null
+|  |  |  pitch_type_name = curveball: null
+|  |  |  pitch_type_name = changeup: null
+|  |  batter_name = Carlos Ruiz
+|  |  |  break_length = '(-inf-6.075]': Ball
+|  |  |  break_length = '(6.075-9.15]': Ball
+|  |  |  break_length = '(9.15-12.225]'
+|  |  |  |  pitch_num_within_atbat = '(-inf-3]': Strike
+|  |  |  |  pitch_num_within_atbat = '(3-5]': Ball
+|  |  |  |  pitch_num_within_atbat = '(5-7]': null
+|  |  |  |  pitch_num_within_atbat = '(7-inf)': null
+|  |  |  break_length = '(12.225-inf)': null
+|  |  batter_name = Guillermo Heredia
+|  |  |  pitch_num_within_atbat = '(-inf-3]'
+|  |  |  |  inning = '(-inf-3]': Strike
+|  |  |  |  inning = '(3-5]'
+|  |  |  |  |  balls = '(-inf-0.75]'
+|  |  |  |  |  |  strikes = '(-inf-0.5]': Strike
+|  |  |  |  |  |  strikes = '(0.5-inf)': Ball
+|  |  |  |  |  balls = '(0.75-1.5]': Strike
+|  |  |  |  |  balls = '(1.5-inf)': null
+|  |  |  |  inning = '(5-7]': null
+|  |  |  |  inning = '(7-inf)': Strike
+|  |  |  pitch_num_within_atbat = '(3-5]': Ball
+|  |  |  pitch_num_within_atbat = '(5-7]': null
+|  |  |  pitch_num_within_atbat = '(7-inf)': null
+|  last_pitch_in_atbat = '(0.25-inf)'
+|  |  batter_name = Jean Segura: Strike
+|  |  batter_name = Benjamin Gamel: Strike
+|  |  batter_name = Robinson Cano
+|  |  |  inning = '(-inf-3]': Strike
+|  |  |  inning = '(3-5]': null
+|  |  |  inning = '(5-7]': Ball
+|  |  |  inning = '(7-inf)': null
+|  |  batter_name = George Springer: Ball
+|  |  batter_name = Jose Altuve
+|  |  |  inning = '(-inf-3]': Strike
+|  |  |  inning = '(3-5]': Ball
+|  |  |  inning = '(5-7]': null
+|  |  |  inning = '(7-inf)': null
+|  |  batter_name = Josh Reddick: Strike
+|  |  batter_name = Carlos Beltran
+|  |  |  inning = '(-inf-3]': Ball
+|  |  |  inning = '(3-5]': Strike
+|  |  |  inning = '(5-7]': null
+|  |  |  inning = '(7-inf)': Strike
+|  |  batter_name = Yulieski Gurriel: Strike
+|  |  batter_name = Marwin Gonzalez: Strike
+|  |  batter_name = Nelson Cruz: Strike
+|  |  batter_name = Kyle Seager: Strike
+|  |  batter_name = Danny Valencia: Strike
+|  |  batter_name = Evan Gattis: Strike
+|  |  batter_name = Nori Aoki: Strike
+|  |  batter_name = Alex Bregman: null
+|  |  batter_name = Jarrod Dyson: Strike
+|  |  batter_name = Carlos Ruiz: Strike
+|  |  batter_name = Guillermo Heredia: Strike
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         157               59.4697 %
+Incorrectly Classified Instances        72               27.2727 %
+Kappa statistic                          0.3093
+Mean absolute error                      0.3122
+Root mean squared error                  0.5578
+Relative absolute error                 77.5778 %
+Root relative squared error            124.2686 %
+UnClassified Instances                  35               13.2576 %
+Total Number of Instances              264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.779    0.476    0.739      0.779    0.758      0.310    0.631     0.708     Strike
+                 0.524    0.221    0.579      0.524    0.550      0.310    0.638     0.465     Ball
+Weighted Avg.    0.686    0.382    0.680      0.686    0.682      0.310    0.634     0.619     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 113  32 |   a = Strike
+  40  44 |   b = Ball
+

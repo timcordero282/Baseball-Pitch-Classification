@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IB1 
+Relation:     Cleaned_mariners-vs-astros-weka.filters.unsupervised.attribute.Discretize-O-B4-M-1.0-Rfirst-last-precision6
+Instances:    264
+Attributes:   28
+              inning
+              top_or_bottom
+              atbat_num_within_game
+              batter_name
+              batter_team
+              stand
+              pitcher_name
+              pitcher_team
+              p_throws
+              home_team_runs
+              away_team_runs
+              pitch_type_name
+              pitch_type_confidence
+              balls
+              strikes
+              last_pitch_in_atbat
+              pitch_num_within_atbat
+              break_angle
+              break_length
+              break_y
+              start_speed
+              end_speed
+              spin_dir
+              spin_rate
+              sz_bot
+              sz_top
+              zone
+              decision
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 classifier
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         153               57.9545 %
+Incorrectly Classified Instances       111               42.0455 %
+Kappa statistic                          0.1171
+Mean absolute error                      0.4205
+Root mean squared error                  0.6484
+Relative absolute error                 90.7784 %
+Root relative squared error            134.7794 %
+Total Number of Instances              264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.631    0.510    0.684      0.631    0.656      0.118    0.560     0.666     Strike
+                 0.490    0.369    0.431      0.490    0.459      0.118    0.560     0.397     Ball
+Weighted Avg.    0.580    0.459    0.592      0.580    0.584      0.118    0.560     0.568     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 106  62 |   a = Strike
+  49  47 |   b = Ball
+

@@ -1,0 +1,252 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Cleaned_mariners-vs-astros
+Instances:    264
+Attributes:   28
+              inning
+              top_or_bottom
+              atbat_num_within_game
+              batter_name
+              batter_team
+              stand
+              pitcher_name
+              pitcher_team
+              p_throws
+              home_team_runs
+              away_team_runs
+              pitch_type_name
+              pitch_type_confidence
+              balls
+              strikes
+              last_pitch_in_atbat
+              pitch_num_within_atbat
+              break_angle
+              break_length
+              break_y
+              start_speed
+              end_speed
+              spin_dir
+              spin_rate
+              sz_bot
+              sz_top
+              zone
+              decision
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                             Class
+Attribute                   Strike      Ball
+                            (0.64)    (0.36)
+=============================================
+inning
+  mean                       4.7381    4.6146
+  std. dev.                  2.3861    2.2238
+  weight sum                    168        96
+  precision                       1         1
+
+top_or_bottom
+  top                          92.0      48.0
+  bottom                       78.0      50.0
+  [total]                     170.0      98.0
+
+atbat_num_within_game
+  mean                      34.8274   34.0208
+  std. dev.                 19.3741   17.8512
+  weight sum                    168        96
+  precision                       1         1
+
+batter_name
+  Jean Segura                  10.0       5.0
+  Benjamin Gamel               12.0       5.0
+  Robinson Cano                12.0       8.0
+  George Springer              10.0       8.0
+  Jose Altuve                  12.0       7.0
+  Josh Reddick                 10.0       7.0
+  Carlos Beltran               11.0       9.0
+  Yulieski Gurriel              8.0       3.0
+  Marwin Gonzalez              11.0       5.0
+  Nelson Cruz                  12.0       7.0
+  Kyle Seager                  11.0       8.0
+  Danny Valencia               10.0       5.0
+  Evan Gattis                   8.0       4.0
+  Nori Aoki                     9.0       7.0
+  Alex Bregman                  7.0       8.0
+  Jarrod Dyson                 10.0       6.0
+  Carlos Ruiz                  13.0       8.0
+  Guillermo Heredia            10.0       4.0
+  [total]                     186.0     114.0
+
+batter_team
+  Seattle Mariners             92.0      48.0
+  Houston Astros               78.0      50.0
+  [total]                     170.0      98.0
+
+stand
+  R                            91.0      50.0
+  L                            79.0      48.0
+  [total]                     170.0      98.0
+
+pitcher_name
+  Brad Peacock                 71.0      40.0
+  Samuel Gaviglio              61.0      42.0
+  Emilio Pagan                 18.0       9.0
+  James Hoyt                    7.0       3.0
+  Reymin Guduan                 7.0       2.0
+  Luke Gregerson               10.0       6.0
+  [total]                     174.0     102.0
+
+pitcher_team
+  Houston Astros               92.0      48.0
+  Seattle Mariners             78.0      50.0
+  [total]                     170.0      98.0
+
+p_throws
+  R                           163.0      96.0
+  L                             7.0       2.0
+  [total]                     170.0      98.0
+
+home_team_runs
+  mean                       3.3869    3.3229
+  std. dev.                  1.9607    1.8114
+  weight sum                    168        96
+  precision                       1         1
+
+away_team_runs
+  mean                       0.6429    0.5938
+  std. dev.                  0.7095    0.6387
+  weight sum                    168        96
+  precision                       1         1
+
+pitch_type_name
+  slider                       60.0      30.0
+  two-seam fastball            44.0      25.0
+  four-seam fastball           17.0       4.0
+  knuckle curveball             4.0       6.0
+  sinker                       26.0      22.0
+  curveball                    14.0       7.0
+  changeup                      7.0       9.0
+  [total]                     172.0     103.0
+
+pitch_type_confidence
+  mean                       0.8879    0.9005
+  std. dev.                  0.0902    0.0757
+  weight sum                    165        96
+  precision                  0.0039    0.0039
+
+balls
+  mean                       1.0119    0.6771
+  std. dev.                  1.0801    0.8228
+  weight sum                    168        96
+  precision                       1         1
+
+strikes
+  mean                       0.8869    0.7813
+  std. dev.                  0.8196    0.8441
+  weight sum                    168        96
+  precision                       1         1
+
+last_pitch_in_atbat
+  mean                        0.369    0.0521
+  std. dev.                  0.4825    0.2222
+  weight sum                    168        96
+  precision                       1         1
+
+pitch_num_within_atbat
+  mean                            3    2.4792
+  std. dev.                  1.7627    1.2827
+  weight sum                    168        96
+  precision                       1         1
+
+break_angle
+  mean                      15.1844   17.1268
+  std. dev.                 22.1531    20.625
+  weight sum                    165        96
+  precision                  0.4376    0.4376
+
+break_length
+  mean                       7.9427    8.1891
+  std. dev.                  2.2163     2.464
+  weight sum                    165        96
+  precision                    0.15      0.15
+
+break_y
+  mean                      23.8242   23.8219
+  std. dev.                  0.0482    0.0438
+  weight sum                    165        96
+  precision                     0.1       0.1
+
+start_speed
+  mean                      86.6801   85.9242
+  std. dev.                  5.1564    5.1954
+  weight sum                    168        96
+  precision                  0.1829    0.1829
+
+end_speed
+  mean                       79.616   78.8925
+  std. dev.                  4.5245    4.5228
+  weight sum                    168        96
+  precision                  0.1615    0.1615
+
+spin_dir
+  mean                     191.1614  192.3115
+  std. dev.                 85.8057   85.6204
+  weight sum                    165        96
+  precision                  1.3612    1.3612
+
+spin_rate
+  mean                    2272.6819 2261.4056
+  std. dev.                248.8058   268.298
+  weight sum                    101        71
+  precision                  8.1374    8.1374
+
+sz_bot
+  mean                       1.5443    1.5415
+  std. dev.                  0.0457     0.048
+  weight sum                    165        96
+  precision                  0.0224    0.0224
+
+sz_top
+  mean                       3.3705    3.3647
+  std. dev.                  0.0991    0.1053
+  weight sum                    165        96
+  precision                  0.0556    0.0556
+
+zone
+  mean                       8.0626   12.3568
+  std. dev.                  4.0153    2.2145
+  weight sum                    165        96
+  precision                  1.0833    1.0833
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         195               73.8636 %
+Incorrectly Classified Instances        69               26.1364 %
+Kappa statistic                          0.4536
+Mean absolute error                      0.2813
+Root mean squared error                  0.4301
+Relative absolute error                 60.7407 %
+Root relative squared error             89.4    %
+Total Number of Instances              264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.750    0.281    0.824      0.750    0.785      0.457    0.803     0.870     Strike
+                 0.719    0.250    0.622      0.719    0.667      0.457    0.803     0.609     Ball
+Weighted Avg.    0.739    0.270    0.750      0.739    0.742      0.457    0.803     0.775     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 126  42 |   a = Strike
+  27  69 |   b = Ball
+

@@ -1,0 +1,74 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1
+Relation:     Cleaned_mariners-vs-astros-weka.filters.unsupervised.attribute.Discretize-O-B4-M-1.0-Rfirst-last-precision6
+Instances:    264
+Attributes:   28
+              inning
+              top_or_bottom
+              atbat_num_within_game
+              batter_name
+              batter_team
+              stand
+              pitcher_name
+              pitcher_team
+              p_throws
+              home_team_runs
+              away_team_runs
+              pitch_type_name
+              pitch_type_confidence
+              balls
+              strikes
+              last_pitch_in_atbat
+              pitch_num_within_atbat
+              break_angle
+              break_length
+              break_y
+              start_speed
+              end_speed
+              spin_dir
+              spin_rate
+              sz_bot
+              sz_top
+              zone
+              decision
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(zone = '(10.75-inf)') and (last_pitch_in_atbat = '(-inf-0.25]') => decision=Ball (125.0/38.0)
+ => decision=Strike (139.0/9.0)
+
+Number of Rules : 2
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         215               81.4394 %
+Incorrectly Classified Instances        49               18.5606 %
+Kappa statistic                          0.6249
+Mean absolute error                      0.2615
+Root mean squared error                  0.3708
+Relative absolute error                 56.4619 %
+Root relative squared error             77.0819 %
+Total Number of Instances              264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.762    0.094    0.934      0.762    0.839      0.643    0.804     0.868     Strike
+                 0.906    0.238    0.685      0.906    0.780      0.643    0.804     0.612     Ball
+Weighted Avg.    0.814    0.146    0.844      0.814    0.818      0.643    0.804     0.775     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 128  40 |   a = Strike
+   9  87 |   b = Ball
+

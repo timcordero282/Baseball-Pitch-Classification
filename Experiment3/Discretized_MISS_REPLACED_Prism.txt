@@ -1,0 +1,368 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.Prism 
+Relation:     Cleaned_mariners-vs-astros-weka.filters.unsupervised.attribute.Discretize-O-B4-M-1.0-Rfirst-last-precision6-weka.filters.unsupervised.attribute.ReplaceMissingValues
+Instances:    264
+Attributes:   28
+              inning
+              top_or_bottom
+              atbat_num_within_game
+              batter_name
+              batter_team
+              stand
+              pitcher_name
+              pitcher_team
+              p_throws
+              home_team_runs
+              away_team_runs
+              pitch_type_name
+              pitch_type_confidence
+              balls
+              strikes
+              last_pitch_in_atbat
+              pitch_num_within_atbat
+              break_angle
+              break_length
+              break_y
+              start_speed
+              end_speed
+              spin_dir
+              spin_rate
+              sz_bot
+              sz_top
+              zone
+              decision
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Prism rules
+----------
+If zone = '(4.25-7.5]' then Strike
+If pitch_num_within_atbat = '(7-inf)' then Strike
+If zone = '(-inf-4.25]'
+   and balls = '(-inf-0.75]' then Strike
+If zone = '(-inf-4.25]'
+   and away_team_runs = '(0.5-inf)' then Strike
+If zone = '(7.5-10.75]'
+   and strikes = '(0.5-inf)' then Strike
+If last_pitch_in_atbat = '(0.25-inf)'
+   and pitch_num_within_atbat = '(-inf-3]' then Strike
+If pitch_num_within_atbat = '(5-7]'
+   and sz_top = '(3.3265-inf)' then Strike
+If zone = '(7.5-10.75]'
+   and inning = '(5-7]' then Strike
+If last_pitch_in_atbat = '(0.25-inf)'
+   and spin_dir = '(92.50075-180.9785]' then Strike
+If pitcher_name = Reymin Guduan
+   and pitch_type_confidence = '(0.883-inf)' then Strike
+If last_pitch_in_atbat = '(0.25-inf)'
+   and home_team_runs = '(4.5-inf)' then Strike
+If break_y = '(-inf-23.75]'
+   and away_team_runs = '(-inf-0.5]' then Strike
+If zone = '(-inf-4.25]'
+   and top_or_bottom = top then Strike
+If batter_name = Guillermo Heredia
+   and strikes = '(-inf-0.5]' then Strike
+If pitch_type_confidence = '(-inf-0.659]'
+   and away_team_runs = '(0.5-inf)' then Strike
+If zone = '(7.5-10.75]'
+   and inning = '(-inf-3]' then Strike
+If last_pitch_in_atbat = '(0.25-inf)'
+   and pitch_type_name = two-seam fastball then Strike
+If pitch_type_confidence = '(0.659-0.771]'
+   and stand = L then Strike
+If batter_name = Jarrod Dyson
+   and pitch_num_within_atbat = '(3-5]' then Strike
+If spin_dir = '(92.50075-180.9785]'
+   and batter_name = Robinson Cano then Strike
+If batter_name = Danny Valencia
+   and pitch_type_name = slider then Strike
+If spin_dir = '(269.45625-inf)'
+   and inning = '(-inf-3]' then Strike
+If batter_name = Nori Aoki
+   and break_length = '(12.225-inf)' then Strike
+If batter_name = Guillermo Heredia
+   and inning = '(-inf-3]' then Strike
+If zone = '(7.5-10.75]'
+   and batter_name = Jose Altuve then Strike
+If batter_name = Kyle Seager
+   and break_angle = '(6.55-27.775]' then Strike
+If spin_dir = '(92.50075-180.9785]'
+   and batter_name = Josh Reddick then Strike
+If batter_name = Marwin Gonzalez
+   and inning = '(-inf-3]' then Strike
+If spin_rate = '(-inf-1760.3625]'
+   and batter_name = Evan Gattis then Strike
+If batter_name = Yulieski Gurriel
+   and balls = '(0.75-1.5]' then Strike
+If pitcher_name = James Hoyt
+   and pitch_type_name = slider
+   and pitch_num_within_atbat = '(-inf-3]' then Strike
+If batter_name = Kyle Seager
+   and inning = '(-inf-3]'
+   and pitch_type_name = two-seam fastball then Strike
+If batter_name = Jarrod Dyson
+   and inning = '(-inf-3]'
+   and pitch_type_name = slider then Strike
+If spin_dir = '(92.50075-180.9785]'
+   and pitcher_name = Samuel Gaviglio then Strike
+If batter_name = Jose Altuve
+   and home_team_runs = '(-inf-1.5]' then Strike
+If batter_name = Nelson Cruz
+   and zone = '(7.5-10.75]' then Strike
+If batter_name = Nori Aoki
+   and end_speed = '(-inf-73.225]'
+   and balls = '(0.75-1.5]' then Strike
+If batter_name = Guillermo Heredia
+   and balls = '(0.75-1.5]'
+   and pitch_num_within_atbat = '(-inf-3]' then Strike
+If batter_name = Kyle Seager
+   and break_length = '(6.075-9.15]'
+   and inning = '(-inf-3]' then Strike
+If batter_name = Benjamin Gamel
+   and pitch_num_within_atbat = '(3-5]' then Strike
+If batter_name = Marwin Gonzalez
+   and pitch_type_name = sinker then Strike
+If batter_name = Danny Valencia
+   and inning = '(5-7]'
+   and pitch_type_name = two-seam fastball then Strike
+If pitcher_name = Luke Gregerson
+   and batter_name = Nelson Cruz
+   and pitch_type_name = slider
+   and inning = '(7-inf)'
+   and top_or_bottom = top
+   and atbat_num_within_game = 'All'
+   and batter_team = Seattle Mariners
+   and stand = R
+   and pitcher_team = Houston Astros
+   and p_throws = R
+   and home_team_runs = '(4.5-inf)'
+   and away_team_runs = '(0.5-inf)'
+   and pitch_type_confidence = '(0.883-inf)'
+   and balls = '(-inf-0.75]'
+   and strikes = '(0.5-inf)'
+   and last_pitch_in_atbat = '(-inf-0.25]'
+   and pitch_num_within_atbat = '(-inf-3]'
+   and break_angle = '(-14.675-6.55]'
+   and break_length = '(9.15-12.225]'
+   and break_y = '(23.75-inf)'
+   and start_speed = '(79.825-85.45]'
+   and end_speed = '(73.225-78.15]'
+   and spin_dir = '(-inf-92.50075]'
+   and spin_rate = '(2108.238-inf)'
+   and sz_bot = '(1.58225-inf)'
+   and sz_top = '(3.3265-inf)'
+   and zone = '(10.75-inf)' then Strike
+If batter_name = Jose Altuve
+   and inning = '(5-7]'
+   and balls = '(0.75-1.5]' then Strike
+If batter_name = Josh Reddick
+   and home_team_runs = '(-inf-1.5]'
+   and pitch_type_name = slider then Strike
+If batter_name = Robinson Cano
+   and strikes = '(-inf-0.5]' then Strike
+If batter_name = Kyle Seager
+   and inning = '(5-7]'
+   and pitch_type_name = slider then Strike
+If batter_name = Alex Bregman
+   and spin_dir = '(-inf-92.50075]'
+   and inning = '(3-5]' then Strike
+If pitch_type_name = knuckle curveball
+   and inning = '(-inf-3]' then Ball
+If zone = '(10.75-inf)'
+   and batter_name = George Springer
+   and spin_dir = '(180.9785-269.45625]' then Ball
+If pitch_type_name = changeup
+   and pitch_num_within_atbat = '(3-5]' then Ball
+If zone = '(10.75-inf)'
+   and batter_name = Jean Segura
+   and last_pitch_in_atbat = '(-inf-0.25]' then Ball
+If zone = '(10.75-inf)'
+   and batter_name = Alex Bregman
+   and inning = '(-inf-3]' then Ball
+If zone = '(10.75-inf)'
+   and batter_name = Nelson Cruz
+   and pitcher_name = Brad Peacock then Ball
+If zone = '(10.75-inf)'
+   and pitch_type_name = knuckle curveball
+   and inning = '(5-7]' then Ball
+If zone = '(10.75-inf)'
+   and spin_rate = '(-inf-1760.3625]'
+   and inning = '(-inf-3]' then Ball
+If zone = '(10.75-inf)'
+   and batter_name = Carlos Ruiz
+   and balls = '(-inf-0.75]' then Ball
+If zone = '(10.75-inf)'
+   and sz_top = '(-inf-3.21525]'
+   and balls = '(-inf-0.75]' then Ball
+If zone = '(10.75-inf)'
+   and pitch_type_confidence = '(0.771-0.883]'
+   and away_team_runs = '(0.5-inf)' then Ball
+If zone = '(10.75-inf)'
+   and spin_rate = '(1760.3625-2108.238]'
+   and batter_name = Josh Reddick then Ball
+If zone = '(10.75-inf)'
+   and home_team_runs = '(3-4.5]'
+   and batter_name = Robinson Cano then Ball
+If batter_name = Carlos Beltran
+   and home_team_runs = '(-inf-1.5]' then Ball
+If batter_name = Kyle Seager
+   and break_angle = '(-inf--14.675]' then Ball
+If zone = '(10.75-inf)'
+   and inning = '(3-5]'
+   and batter_name = Marwin Gonzalez then Ball
+If batter_name = Nori Aoki
+   and break_length = '(6.075-9.15]' then Ball
+If batter_name = Kyle Seager
+   and break_length = '(12.225-inf)' then Ball
+If zone = '(10.75-inf)'
+   and home_team_runs = '(3-4.5]'
+   and spin_dir = '(92.50075-180.9785]' then Ball
+If zone = '(10.75-inf)'
+   and home_team_runs = '(3-4.5]'
+   and batter_name = Danny Valencia then Ball
+If zone = '(10.75-inf)'
+   and pitcher_name = Emilio Pagan
+   and end_speed = '(73.225-78.15]' then Ball
+If batter_name = Alex Bregman
+   and balls = '(0.75-1.5]' then Ball
+If zone = '(10.75-inf)'
+   and batter_name = Nelson Cruz
+   and pitch_type_name = two-seam fastball then Ball
+If zone = '(10.75-inf)'
+   and batter_name = Evan Gattis
+   and inning = '(5-7]' then Ball
+If zone = '(10.75-inf)'
+   and batter_name = Yulieski Gurriel
+   and pitch_type_confidence = '(0.883-inf)' then Ball
+If zone = '(10.75-inf)'
+   and batter_name = Alex Bregman
+   and balls = '(-inf-0.75]' then Ball
+If zone = '(10.75-inf)'
+   and home_team_runs = '(3-4.5]'
+   and balls = '(-inf-0.75]'
+   and stand = L then Ball
+If batter_name = Kyle Seager
+   and zone = '(7.5-10.75]' then Ball
+If zone = '(10.75-inf)'
+   and pitch_type_name = two-seam fastball
+   and batter_name = Marwin Gonzalez then Ball
+If zone = '(10.75-inf)'
+   and pitch_type_name = two-seam fastball
+   and home_team_runs = '(-inf-1.5]'
+   and strikes = '(-inf-0.5]' then Ball
+If batter_name = Guillermo Heredia
+   and pitch_num_within_atbat = '(3-5]'
+   and inning = '(3-5]' then Ball
+If batter_name = Carlos Beltran
+   and pitch_type_name = two-seam fastball
+   and balls = '(-inf-0.75]' then Ball
+If batter_name = Kyle Seager
+   and inning = '(3-5]'
+   and pitch_type_name = two-seam fastball then Ball
+If batter_name = Nori Aoki
+   and pitch_type_confidence = '(-inf-0.659]' then Ball
+If batter_name = Jarrod Dyson
+   and pitch_type_name = four-seam fastball then Ball
+If pitcher_name = Luke Gregerson
+   and balls = '(0.75-1.5]'
+   and pitch_type_name = slider then Ball
+If batter_name = Carlos Beltran
+   and pitch_type_name = curveball
+   and pitch_type_confidence = '(0.883-inf)' then Ball
+If batter_name = Robinson Cano
+   and pitch_type_name = two-seam fastball
+   and balls = '(0.75-1.5]' then Ball
+If batter_name = Carlos Ruiz
+   and end_speed = '(78.15-83.075]'
+   and inning = '(3-5]' then Ball
+If batter_name = Alex Bregman
+   and inning = '(-inf-3]'
+   and balls = '(1.5-inf)' then Ball
+If pitcher_name = James Hoyt
+   and pitch_type_name = slider
+   and pitch_num_within_atbat = '(3-5]' then Ball
+If break_length = '(12.225-inf)'
+   and batter_name = Robinson Cano
+   and inning = '(3-5]' then Ball
+If batter_name = Nori Aoki
+   and inning = '(3-5]'
+   and pitch_type_name = curveball then Ball
+If batter_name = Jarrod Dyson
+   and inning = '(5-7]'
+   and pitch_num_within_atbat = '(-inf-3]' then Ball
+If batter_name = Guillermo Heredia
+   and inning = '(3-5]'
+   and balls = '(-inf-0.75]'
+   and strikes = '(0.5-inf)' then Ball
+If pitcher_name = Luke Gregerson
+   and batter_name = Nelson Cruz
+   and balls = '(-inf-0.75]'
+   and strikes = '(0.5-inf)'
+   and inning = '(7-inf)'
+   and top_or_bottom = top
+   and atbat_num_within_game = 'All'
+   and batter_team = Seattle Mariners
+   and stand = R
+   and pitcher_team = Houston Astros
+   and p_throws = R
+   and home_team_runs = '(4.5-inf)'
+   and away_team_runs = '(0.5-inf)'
+   and pitch_type_name = slider
+   and pitch_type_confidence = '(0.883-inf)'
+   and last_pitch_in_atbat = '(-inf-0.25]'
+   and pitch_num_within_atbat = '(-inf-3]'
+   and break_angle = '(-14.675-6.55]'
+   and break_length = '(9.15-12.225]'
+   and break_y = '(23.75-inf)'
+   and start_speed = '(79.825-85.45]'
+   and end_speed = '(73.225-78.15]'
+   and spin_dir = '(-inf-92.50075]'
+   and spin_rate = '(2108.238-inf)'
+   and sz_bot = '(1.58225-inf)'
+   and sz_top = '(3.3265-inf)'
+   and zone = '(10.75-inf)' then Ball
+If batter_name = Carlos Beltran
+   and strikes = '(-inf-0.5]'
+   and inning = '(3-5]'
+   and pitch_type_confidence = '(0.883-inf)' then Ball
+If batter_name = Kyle Seager
+   and balls = '(-inf-0.75]'
+   and inning = '(5-7]' then Ball
+If sz_top = '(-inf-3.21525]'
+   and break_angle = '(6.55-27.775]'
+   and zone = '(10.75-inf)' then Ball
+If batter_name = Benjamin Gamel
+   and pitch_type_name = two-seam fastball
+   and balls = '(-inf-0.75]' then Ball
+
+
+Time taken to build model: 0.08 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         162               61.3636 %
+Incorrectly Classified Instances        66               25      %
+Kappa statistic                          0.3125
+Mean absolute error                      0.2895
+Root mean squared error                  0.538 
+Relative absolute error                 73.6747 %
+Root relative squared error            122.5328 %
+UnClassified Instances                  36               13.6364 %
+Total Number of Instances              264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.836    0.539    0.756      0.836    0.794      0.317    0.664     0.727     Strike
+                 0.461    0.164    0.583      0.461    0.515      0.317    0.608     0.444     Ball
+Weighted Avg.    0.711    0.414    0.698      0.711    0.701      0.317    0.646     0.632     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 127  25 |   a = Strike
+  41  35 |   b = Ball
+

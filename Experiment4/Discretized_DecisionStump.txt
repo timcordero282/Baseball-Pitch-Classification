@@ -1,0 +1,86 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     Cleaned_mariners-vs-astros-weka.filters.unsupervised.attribute.Discretize-O-B4-M-1.0-Rfirst-last-precision6
+Instances:    264
+Attributes:   28
+              inning
+              top_or_bottom
+              atbat_num_within_game
+              batter_name
+              batter_team
+              stand
+              pitcher_name
+              pitcher_team
+              p_throws
+              home_team_runs
+              away_team_runs
+              pitch_type_name
+              pitch_type_confidence
+              balls
+              strikes
+              last_pitch_in_atbat
+              pitch_num_within_atbat
+              break_angle
+              break_length
+              break_y
+              start_speed
+              end_speed
+              spin_dir
+              spin_rate
+              sz_bot
+              sz_top
+              zone
+              decision
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+zone = '(10.75-inf)' : Ball
+zone != '(10.75-inf)' : Strike
+zone is missing : Strike
+
+Class distributions
+
+zone = '(10.75-inf)'
+Strike	Ball	
+0.40522875816993464	0.5947712418300654	
+zone != '(10.75-inf)'
+Strike	Ball	
+0.9537037037037037	0.046296296296296294	
+zone is missing
+Strike	Ball	
+1.0	0.0	
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         197               74.6212 %
+Incorrectly Classified Instances        67               25.3788 %
+Kappa statistic                          0.5135
+Mean absolute error                      0.316 
+Root mean squared error                  0.3988
+Relative absolute error                 68.2362 %
+Root relative squared error             82.8854 %
+Total Number of Instances              264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.631    0.052    0.955      0.631    0.760      0.564    0.745     0.843     Strike
+                 0.948    0.369    0.595      0.948    0.731      0.564    0.745     0.532     Ball
+Weighted Avg.    0.746    0.167    0.824      0.746    0.749      0.564    0.745     0.730     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 106  62 |   a = Strike
+   5  91 |   b = Ball
+

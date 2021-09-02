@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.KStar -B 20 -M a
+Relation:     Cleaned_mariners-vs-astros
+Instances:    264
+Attributes:   28
+              inning
+              top_or_bottom
+              atbat_num_within_game
+              batter_name
+              batter_team
+              stand
+              pitcher_name
+              pitcher_team
+              p_throws
+              home_team_runs
+              away_team_runs
+              pitch_type_name
+              pitch_type_confidence
+              balls
+              strikes
+              last_pitch_in_atbat
+              pitch_num_within_atbat
+              break_angle
+              break_length
+              break_y
+              start_speed
+              end_speed
+              spin_dir
+              spin_rate
+              sz_bot
+              sz_top
+              zone
+              decision
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+KStar Beta Verion (0.1b).
+Copyright (c) 1995-97 by Len Trigg (trigg@cs.waikato.ac.nz).
+Java port to Weka by Abdelaziz Mahoui (am14@cs.waikato.ac.nz).
+
+KStar options : -B 20 -M a 
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         163               61.7424 %
+Incorrectly Classified Instances       101               38.2576 %
+Kappa statistic                          0.1932
+Mean absolute error                      0.3972
+Root mean squared error                  0.5983
+Relative absolute error                 85.7621 %
+Root relative squared error            124.3702 %
+Total Number of Instances              264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.469    0.713      0.667    0.689      0.194    0.593     0.694     Strike
+                 0.531    0.333    0.477      0.531    0.502      0.194    0.593     0.441     Ball
+Weighted Avg.    0.617    0.420    0.627      0.617    0.621      0.194    0.593     0.602     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 112  56 |   a = Strike
+  45  51 |   b = Ball
+

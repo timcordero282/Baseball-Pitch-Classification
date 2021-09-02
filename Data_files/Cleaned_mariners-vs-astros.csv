@@ -1,0 +1,265 @@
+inning,top_or_bottom,atbat_num_within_game,batter_name,batter_team,stand,pitcher_name,pitcher_team,p_throws,home_team_runs,away_team_runs,pitch_type_name,pitch_type_confidence,balls,strikes,last_pitch_in_atbat,pitch_num_within_atbat,break_angle,break_length,break_y,start_speed,end_speed,spin_dir,spin_rate,sz_bot,sz_top,zone,decision
+1,top,1,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,0,0,slider,0.915,0,0,0,1,-18.3,7.2,23.8,82,75.3,134.282,2622.145,1.504,3.301,1,Strike
+1,top,1,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,0,0,two-seam fastball,0.87,0,1,0,2,35.9,5.8,23.8,91.2,83.7,231.848,2312.752,1.504,3.301,13,Ball
+1,top,1,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,0,0,four-seam fastball,0.547,1,1,0,3,35.5,5.5,23.8,92.9,85.3,232.257,2382.644,1.504,3.301,5,Strike
+1,top,1,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,0,0,slider,0.923,1,2,1,4,-22.8,8.5,23.8,82,74.7,112.503,2782.778,1.504,3.301,12,Strike
+1,top,2,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,0,0,knuckle curveball,0.571,0,0,0,1,-9.2,13.5,23.8,78.4,72.3,30.157,2607.121,1.513,3.319,14,Ball
+1,top,2,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,0,0,two-seam fastball,0.93,1,0,0,2,37,6.3,23.8,92.6,84.7,242.024,2355.035,1.513,3.319,13,Ball
+1,top,2,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,0,0,four-seam fastball,0.714,2,0,0,3,35.8,5.5,23.8,92.7,84.9,231.352,2273.363,1.513,3.319,13,Strike
+1,top,2,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,0,0,slider,0.953,2,1,1,4,-10.3,8.3,23.8,82.9,76.3,121.845,,1.513,3.319,5,Strike
+1,top,3,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,0,0,slider,0.969,0,0,0,1,-6.2,8,23.9,83.8,77.4,141.173,,1.513,3.319,13,Strike
+1,top,3,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,0,0,slider,0.819,0,1,0,2,-10.3,13.8,23.8,79.3,72.9,30.536,2693.704,1.513,3.319,9,Strike
+1,top,3,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,0,0,slider,0.951,0,2,1,3,-18.2,8.3,23.8,83.4,76.6,113.181,,1.513,3.319,13,Strike
+1,bottom,4,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.923,0,0,0,1,23.8,6.7,23.8,88.3,81,238.763,2091.752,1.601,3.49,6,Strike
+1,bottom,4,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.919,0,1,0,2,31.1,7.6,23.8,87.9,80.5,250.304,2144.09,1.601,3.49,6,Strike
+1,bottom,4,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,0,0,slider,0.884,0,2,0,3,-3.3,9,23.9,81.4,75.3,125.58,2265.416,1.601,3.49,14,Strike
+1,bottom,4,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.939,0,2,0,4,35.5,6,23.8,89.7,81.8,233.301,2159.817,1.601,3.49,12,Ball
+1,bottom,4,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.909,1,2,1,5,30.2,7.2,23.8,87.7,80.7,246.305,2115.874,1.601,3.49,11,Ball
+1,bottom,5,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.874,0,0,0,1,34.6,7.1,23.8,87.4,79.7,240.546,2080.725,1.601,3.49,11,Strike
+1,bottom,5,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.929,0,1,1,2,34,7.3,23.8,88.8,81.4,245.9,2115.439,1.601,3.49,7,Strike
+1,bottom,6,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,curveball,0.554,0,0,0,1,-12.3,10.9,23.8,78.8,72,71.073,2146.81,1.589,3.467,3,Strike
+1,bottom,6,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.934,0,1,0,2,34,7.1,23.8,88.8,80.6,244.178,2159.281,1.589,3.467,3,Strike
+1,bottom,6,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.932,0,2,0,3,29.9,7.7,23.8,88.3,80.4,253.949,2083.56,1.589,3.467,11,Ball
+1,bottom,6,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,slider,0.876,1,2,0,4,-9.1,10.7,23.8,81.2,74.5,55.829,2173.923,1.589,3.467,14,Strike
+1,bottom,6,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,slider,0.904,1,2,1,5,-0.1,9,23.9,83.1,76.9,295.777,2249.739,1.589,3.467,13,Strike
+1,bottom,7,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.93,0,0,0,1,28.5,7.1,23.8,88.8,81.1,246.179,2201.232,1.589,3.467,11,Ball
+1,bottom,7,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,changeup,0.975,1,0,0,2,26.2,9.1,23.8,83.2,76.4,260.392,1478.029,1.589,3.467,11,Ball
+1,bottom,7,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,slider,0.57,2,0,0,3,-8.9,10.6,23.8,79.4,72.9,65.5,2175.235,1.589,3.467,14,Ball
+1,bottom,7,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,0,0,sinker,0.906,3,0,1,4,29.2,7.6,23.8,87.6,79.7,248.928,2091.548,1.565,3.411,11,Ball
+1,bottom,8,Yulieski Gurriel,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,1,0,slider,0.904,0,0,0,1,0.4,8.8,23.9,83.6,77.3,301.924,2135.349,1.565,3.411,4,Strike
+1,bottom,8,Yulieski Gurriel,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,1,0,slider,0.91,0,1,1,2,3.6,8.4,23.8,83.6,76.4,232.98,2190.263,1.565,3.411,6,Strike
+1,bottom,9,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,1,0,slider,0.609,0,0,0,1,-7.9,10.6,23.8,79.8,73.4,60.302,2214.108,1.565,3.411,14,Strike
+1,bottom,9,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,1,0,curveball,0.655,0,1,0,2,-7.8,11.7,23.8,79.5,73,41.2,2097.158,1.565,3.411,7,Strike
+1,bottom,9,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,1,0,slider,0.847,0,2,1,3,-7.4,11.6,23.8,80.5,73.9,37.237,,1.565,3.411,14,Strike
+2,top,10,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,1,0,slider,0.907,0,0,0,1,-8.6,6.7,23.8,81.9,74.5,160.153,2583.097,1.589,3.467,11,Ball
+2,top,10,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,1,0,slider,0.923,1,0,0,2,-11.7,8,23.8,80.8,74.1,129.2,,1.589,3.467,11,Ball
+2,top,10,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,1,0,two-seam fastball,0.933,2,0,0,3,49,6.3,23.8,91.4,82.8,237.244,2253.033,1.589,3.467,3,Strike
+2,top,10,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,1,0,slider,0.936,2,1,1,4,-16.4,7.5,23.8,83,76.1,127.089,2579.12,1.589,3.467,2,Strike
+2,top,11,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,1,0,slider,0.929,0,0,0,1,-4,6.8,23.9,83.5,77.2,170.129,2632.842,1.589,3.467,11,Strike
+2,top,11,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,1,0,two-seam fastball,0.892,0,1,0,2,35.6,5.3,23.8,93.5,85.1,232.73,2304.761,1.589,3.467,11,Strike
+2,top,11,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,1,0,slider,0.972,0,2,0,3,-7,13.5,23.9,79.8,74.2,22.013,2472.692,1.589,3.467,14,Ball
+2,top,11,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,1,0,slider,0.946,1,2,1,4,-10.9,8.2,23.9,82.2,75.8,125.73,,1.589,3.467,13,Strike
+2,top,12,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,1,0,two-seam fastball,0.931,0,0,0,1,43,6.9,23.8,93.5,85.2,245.922,2330.54,1.535,3.371,14,Ball
+2,top,12,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,1,0,two-seam fastball,0.926,1,0,0,2,37,7.2,23.8,91.9,84.2,251.083,2379.829,1.535,3.371,13,Ball
+2,top,12,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,1,0,two-seam fastball,0.928,2,0,0,3,39.9,6.8,23.8,92.6,84.9,246.442,2305.145,1.535,3.371,8,Strike
+2,top,12,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,1,0,slider,0.963,2,1,1,4,-10.6,8.4,23.9,83.3,77.4,107.524,2619.555,1.535,3.371,8,Strike
+2,bottom,13,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.919,0,0,1,1,32.6,7.4,23.8,87.8,80,246.492,2083.177,1.627,3.549,6,Strike
+2,bottom,14,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.921,0,0,0,1,33.3,8.4,23.8,88.3,80.8,257.249,2133.199,1.487,3.285,13,Ball
+2,bottom,14,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,curveball,0.943,1,0,0,2,-6.9,12.5,23.9,77.6,71.7,33.748,2281.986,1.487,3.285,13,Strike
+2,bottom,14,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,curveball,0.919,1,1,0,3,-3.9,11.5,23.9,78.4,72.6,25.018,2261.27,1.487,3.285,14,Strike
+2,bottom,14,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,curveball,0.609,1,2,0,4,-5,10.5,23.9,79.8,73.7,50.337,2263.657,1.487,3.285,14,Ball
+2,bottom,14,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,curveball,0.713,2,2,1,5,-8.3,11.7,23.8,79.5,73.2,42.658,2191.45,1.487,3.285,14,Strike
+2,bottom,15,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,slider,0.875,0,0,0,1,-3.2,9.7,23.9,81.5,75.4,46.909,2262.527,1.487,3.285,4,Strike
+2,bottom,15,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.928,0,1,0,2,29.3,6.4,23.8,88.5,80.8,235.394,2124.416,1.487,3.285,12,Ball
+2,bottom,15,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.928,1,1,0,3,26.1,6,23.8,88.4,80.9,229.877,2120.02,1.487,3.285,12,Ball
+2,bottom,15,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.927,2,1,0,4,28.2,7,23.8,88.9,81.8,242.63,2134.554,1.487,3.285,14,Ball
+2,bottom,15,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,slider,0.849,3,1,1,5,-4.8,9.7,23.9,81,75.2,55.026,2174.804,1.535,3.371,1,Ball
+2,bottom,16,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,slider,0.899,0,0,0,1,1.3,8.3,23.9,83.2,77.3,207.095,2174.763,1.535,3.371,13,Ball
+2,bottom,16,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.917,1,0,0,2,24.2,7.1,23.8,88,81,245.709,2104.62,1.535,3.371,11,Ball
+2,bottom,16,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.927,2,0,1,3,29.2,7.5,23.8,88.3,81.3,250.16,2098.131,1.535,3.371,5,Strike
+3,top,17,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,,,0,0,0,1,,,,92.1,84.3,,,,,,Strike
+3,top,17,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,,,0,1,0,2,,,,92.2,84.4,,,,,,Strike
+3,top,17,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,knuckle curveball,0.99,0,2,0,3,-10.3,15.3,23.8,74.2,68.3,33.49,2678.699,1.504,3.301,14,Ball
+3,top,17,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,,,1,2,1,4,,,,83.3,76.8,,,,,,Strike
+3,top,18,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.932,0,0,0,1,41.2,6.2,23.8,92.2,83.8,238.224,2346.223,1.504,3.301,4,Strike
+3,top,18,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,slider,0.954,0,1,0,2,-15.4,7.8,23.8,83.2,76.2,125.817,,1.504,3.301,9,Strike
+3,top,18,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,slider,0.915,0,2,0,3,-25.2,7.5,23.8,83.2,76.1,124.578,2691.063,1.504,3.301,12,Ball
+3,top,18,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,changeup,0.897,1,2,0,4,31.4,8.7,23.8,81.9,74.9,247.422,2036.158,1.504,3.301,14,Ball
+3,top,18,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.926,2,2,1,5,40.1,7,23.8,92.2,84.3,246.791,2313.178,1.504,3.301,13,Strike
+3,top,19,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.936,0,0,0,1,41.1,6.5,23.8,93.1,84.4,243.525,2214.304,1.504,3.301,5,Strike
+3,top,19,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.933,0,1,0,2,39.4,6.5,23.8,93,84.7,243.476,2304.125,1.504,3.301,5,Strike
+3,top,19,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.931,0,2,0,3,36,7.7,23.8,92.7,84.7,258.836,2252.823,1.504,3.301,11,Strike
+3,top,19,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,slider,0.964,0,2,1,4,-10,8.1,23.9,83.9,77.7,115.498,2650.122,1.504,3.301,14,Strike
+3,top,20,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,slider,0.95,0,0,0,1,-10.6,7.2,23.9,84.5,78,142.293,2644.021,1.504,3.301,9,Strike
+3,top,20,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.91,0,1,0,2,39.2,7,23.8,90.2,82.5,245.739,2304.724,1.504,3.301,1,Strike
+3,top,20,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.939,0,2,1,3,47,6.4,23.8,93.8,85.5,241.397,2326.886,1.504,3.301,6,Strike
+3,bottom,21,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.927,0,0,0,1,31.6,6.5,23.8,88.2,80.4,236.4,2119.806,1.448,3.104,12,Ball
+3,bottom,21,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,curveball,0.857,1,0,1,2,-7,11.8,23.8,78.6,72.4,38.644,2265.518,1.448,3.104,14,Strike
+3,bottom,22,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,changeup,0.995,0,0,0,1,28,7.8,23.9,83.2,76.8,240.026,1621.093,1.448,3.104,13,Ball
+3,bottom,22,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,curveball,0.938,1,0,0,2,-6,11.8,23.8,77.4,71.2,38.37,2005.956,1.448,3.104,11,Ball
+3,bottom,22,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,slider,0.92,2,0,1,3,0.4,9.3,23.8,82.2,74.8,275.783,2111.944,1.448,3.104,6,Strike
+3,bottom,23,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.931,0,0,0,1,23.8,6.7,23.8,88.8,81.3,240.29,2008.226,1.589,3.467,6,Strike
+3,bottom,23,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.924,0,1,1,2,25.1,7.7,23.8,87.9,80.5,254.304,2026.23,1.565,3.411,3,Strike
+3,bottom,24,Yulieski Gurriel,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,changeup,0.918,0,0,0,1,28,8.1,23.8,84.4,77.6,247.98,1646.461,1.565,3.411,14,Ball
+3,bottom,24,Yulieski Gurriel,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,changeup,0.952,1,0,0,2,25.5,8.5,23.8,83.6,76.5,253.059,1463.832,1.565,3.411,4,Strike
+3,bottom,24,Yulieski Gurriel,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.939,1,1,1,3,27.6,6.6,23.8,89.8,82.2,240.651,2071.915,1.565,3.411,6,Strike
+4,top,25,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,knuckle curveball,0.61,0,0,0,1,-6.6,13.3,23.8,78.3,72.1,23.109,2441.716,1.513,3.319,7,Strike
+4,top,25,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.925,0,1,0,2,35.9,5.5,23.8,91.9,83.7,233.26,2299.038,1.513,3.319,11,Ball
+4,top,25,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,slider,0.955,1,1,0,3,-11.3,8.7,23.9,82.3,75.9,105.957,2561.566,1.513,3.319,4,Strike
+4,top,25,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,knuckle curveball,0.965,1,2,0,4,-7.8,14,23.8,77.3,71,25.59,2415.773,1.513,3.319,11,Strike
+4,top,25,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.932,1,2,1,5,37.4,6.5,23.8,92.3,84.4,245.188,2266.447,1.513,3.319,11,Strike
+4,top,26,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.927,0,0,0,1,37.6,7.5,23.8,92.2,84.7,255.487,2264.266,1.513,3.319,11,Strike
+4,top,26,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,four-seam fastball,0.884,0,1,0,2,45.2,4.9,23.7,94.1,85.1,226.963,2277.178,1.513,3.319,2,Strike
+4,top,26,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,slider,0.91,0,2,0,3,-6.2,14.3,23.9,79,73.6,17.523,2634.293,1.513,3.319,14,Ball
+4,top,26,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.932,1,2,0,4,43.5,7,23.8,93.2,85.6,247.486,2320.312,1.513,3.319,14,Ball
+4,top,26,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,2,0,slider,0.921,2,2,1,5,-9.8,6.5,23.9,84.6,78.5,156.597,2719.567,1.513,3.319,4,Strike
+4,top,27,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,slider,0.95,0,0,0,1,-4.9,7.2,23.9,84,77.9,160.285,2518.697,1.535,3.371,8,Strike
+4,top,27,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,slider,0.917,0,1,0,2,-18.8,7.3,23.8,82.7,75.8,130.754,,1.535,3.371,3,Strike
+4,top,27,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,slider,0.731,0,2,0,3,-13.9,11.6,23.8,78.7,72.5,63.218,2717.07,1.535,3.371,14,Ball
+4,top,27,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,slider,0.943,1,2,0,4,-15.7,7.8,23.8,83.5,76.9,124.581,,1.535,3.371,14,Ball
+4,top,27,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,four-seam fastball,0.888,2,2,0,5,40.7,4.8,23.8,94.3,86.3,224.866,2321.527,1.535,3.371,7,Strike
+4,top,27,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.928,2,2,0,6,36.6,8.1,23.8,92.5,85.3,263.482,2303.271,1.535,3.371,4,Strike
+4,top,27,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,2,0,two-seam fastball,0.936,2,2,1,7,39.1,7.4,23.8,92.7,84.9,254.691,,1.535,3.371,6,Strike
+4,bottom,28,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,curveball,0.909,0,0,0,1,-5.6,12.3,23.8,77.9,71.7,29.932,2245.871,1.565,3.411,11,Ball
+4,bottom,28,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.927,1,0,1,2,31.4,7.3,23.8,88.1,80.7,246.772,2102.173,1.565,3.411,2,Strike
+4,bottom,29,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,sinker,0.878,0,0,0,1,32.9,8.1,23.8,87.2,79.8,252.56,1996.632,1.627,3.549,7,Strike
+4,bottom,29,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,changeup,0.982,0,1,0,2,25,9.4,23.8,82.6,75.7,261.879,1469.041,1.627,3.549,13,Strike
+4,bottom,29,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,2,0,slider,0.909,0,2,1,3,-2.4,8,23.8,83.6,77.1,172.151,2037.221,1.627,3.549,14,Strike
+4,bottom,30,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,3,0,sinker,0.882,0,0,0,1,27,7.1,23.8,87.4,80.1,241.516,2010.854,1.627,3.549,11,Ball
+4,bottom,30,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,3,0,sinker,0.887,1,0,0,2,29.9,7.6,23.8,87.1,79.5,248.4,2041.957,1.627,3.549,1,Ball
+4,bottom,30,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,3,0,sinker,0.918,2,0,0,3,31.6,5.8,23.7,88.2,79.7,226.652,2100.91,1.627,3.549,12,Strike
+4,bottom,30,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,3,0,curveball,0.886,2,1,0,4,-3.6,11.6,23.9,78.2,72.2,22.255,2176.058,1.627,3.549,14,Ball
+4,bottom,30,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,3,0,slider,0.869,3,1,1,5,0.5,9.5,23.9,81.5,75.8,336.068,2130.72,1.627,3.549,8,Strike
+4,bottom,31,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,3,0,slider,0.909,0,0,0,1,-0.5,9.2,23.9,81.9,75.6,356.282,2090.587,1.535,3.371,12,Ball
+4,bottom,31,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,3,0,slider,0.882,1,0,0,2,6.6,7.7,23.8,83.8,77.1,219.805,2101.313,1.535,3.371,9,Ball
+4,bottom,31,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,3,0,slider,0.888,2,0,0,3,-1.8,9.2,23.9,81,74.8,79.515,2189.323,1.535,3.371,12,Strike
+4,bottom,31,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,3,0,changeup,0.985,2,1,0,4,27.4,8.4,23.8,83.5,77.1,249.02,1582.903,1.535,3.371,14,Ball
+4,bottom,31,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,3,0,sinker,0.888,3,1,0,5,28.3,6.9,23.8,87.4,79.6,237.934,2079.709,1.535,3.371,9,Strike
+4,bottom,31,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,3,0,slider,0.904,3,2,0,6,0.8,8.4,23.9,83.4,77.3,213.21,2122.157,1.535,3.371,5,Strike
+4,bottom,31,Alex Bregman,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,3,0,sinker,0.92,3,2,1,7,30.1,8.8,23.8,87.7,80.4,263.619,2188.113,1.535,3.371,8,Strike
+4,bottom,32,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,0,sinker,0.934,0,0,0,1,35.6,7.7,23.7,88.7,79.9,250.267,2043.942,1.535,3.371,2,Strike
+4,bottom,32,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,0,slider,0.91,0,1,0,2,-5.4,10.1,23.8,80.8,73.4,56.043,2168.26,1.535,3.371,2,Strike
+4,bottom,32,George Springer,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,0,curveball,0.74,0,2,1,3,-4.7,12.1,23.8,78.3,71.8,24.2,2117.193,1.535,3.371,4,Strike
+4,bottom,33,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,0,slider,0.897,0,0,0,1,3.1,7.5,23.8,84.3,76.6,203.991,2198.662,1.448,3.104,14,Ball
+4,bottom,33,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,0,sinker,0.909,1,0,0,2,33,8.6,23.7,87.9,79.2,256.259,2158.212,1.448,3.104,13,Strike
+4,bottom,33,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,0,changeup,0.92,1,1,0,3,25.1,10.2,23.8,83.2,76.8,274.147,1412.487,1.448,3.104,8,Strike
+4,bottom,33,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,0,sinker,0.917,1,2,1,4,21.7,6.7,23.8,87.7,80.4,237.093,2149.272,1.448,3.104,12,Ball
+5,top,34,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,0,slider,0.942,0,0,0,1,-3.2,7.5,23.9,83.2,76.7,165.742,2489.466,1.535,3.371,11,Ball
+5,top,34,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,0,two-seam fastball,0.919,1,0,0,2,35.7,6.1,23.8,91.2,84,237.81,2279.771,1.535,3.371,11,Ball
+5,top,34,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,0,four-seam fastball,0.571,2,0,1,3,41.2,5.6,23.8,92.4,84.9,233.434,2234.182,1.535,3.371,13,Strike
+5,top,35,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,0,two-seam fastball,0.928,0,0,0,1,39.4,7.8,23.8,92.3,84.1,255.153,2236.273,1.589,3.467,13,Ball
+5,top,35,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,0,two-seam fastball,0.937,1,0,1,2,46.3,6.8,23.8,92.5,83.8,242.851,2260.988,1.589,3.467,8,Strike
+5,top,36,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,slider,0.906,0,0,0,1,14,7.4,23.8,85.4,78.1,234.807,2477.666,1.589,3.467,13,Ball
+5,top,36,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.926,1,0,0,2,41.7,6.1,23.8,92.5,85.3,239.08,2308.731,1.589,3.467,7,Strike
+5,top,36,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.936,1,1,1,3,42.3,6.2,23.8,93.1,85.7,240.947,2368.546,1.589,3.467,13,Strike
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.923,0,0,0,1,42.7,7.4,23.8,91.5,83.9,247.795,2282.461,1.504,3.301,13,Ball
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.925,1,0,0,2,43.8,6.8,23.8,90.8,82.8,241.152,2307.532,1.504,3.301,9,Ball
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.918,2,0,0,3,37,8.2,23.8,90.9,83.1,260.155,2190.267,1.504,3.301,4,Strike
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,slider,0.929,2,1,0,4,-7.3,6.8,23.8,84.1,77.4,162.796,2495.875,1.504,3.301,12,Ball
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.922,3,1,0,5,35.9,8.1,23.8,91.9,84.7,262.267,2218.264,1.504,3.301,7,Strike
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,slider,0.92,3,2,0,6,-9.9,6.3,23.8,83.6,76.6,160.757,2673.265,1.504,3.301,6,Strike
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.936,3,2,0,7,43.6,6.9,23.8,92.2,84,244.782,2397.833,1.504,3.301,4,Strike
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.93,3,2,0,8,38.8,7.5,23.8,92,84.4,254.507,2350.625,1.504,3.301,5,Strike
+5,top,37,Carlos Ruiz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,slider,0.905,3,2,1,9,0.6,6.1,23.8,84.6,77,184.449,2608.533,1.504,3.301,1,Strike
+5,top,38,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.937,0,0,0,1,42.2,6.5,23.8,93.1,84.8,243.363,2339.883,1.504,3.301,12,Strike
+5,top,38,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.936,0,1,0,2,43.3,6.8,23.8,93.3,84.6,245.992,2311.004,1.504,3.301,14,Ball
+5,top,38,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.936,1,1,0,3,41.6,6.7,23.8,92.8,84.7,246.024,2400.683,1.504,3.301,12,Strike
+5,top,38,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.935,1,2,0,4,43,6.2,23.8,92.9,84.6,239.061,2364.865,1.504,3.301,14,Ball
+5,top,38,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.929,2,2,0,5,40.8,7.2,23.8,92.3,84.4,250.005,2303.22,1.504,3.301,14,Ball
+5,top,38,Guillermo Heredia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.928,3,2,1,6,37.5,7.8,23.8,91.9,84.4,258.112,,1.504,3.301,6,Strike
+5,bottom,39,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.907,0,0,0,1,29.7,6.8,23.7,87.3,79.1,238.86,2094.062,1.448,3.104,12,Ball
+5,bottom,39,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.88,1,0,0,2,31.1,6.7,23.8,86.8,79.3,237.544,,1.448,3.104,12,Ball
+5,bottom,39,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,1,slider,0.902,2,0,0,3,0.7,9.5,23.9,82,76.3,336.946,,1.448,3.104,8,Strike
+5,bottom,39,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.921,2,1,0,4,31.2,7.4,23.8,87.8,80.1,246.965,,1.448,3.104,3,Strike
+5,bottom,39,Jose Altuve,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.813,2,2,1,5,25.8,6.5,23.8,86.7,79.7,232.45,,1.448,3.104,2,Strike
+5,bottom,40,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,curveball,0.879,0,0,0,1,-4.4,11.2,23.9,78.7,72.6,34.081,,1.589,3.467,14,Ball
+5,bottom,40,Josh Reddick,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,changeup,0.938,1,0,1,2,23,9.7,23.9,82.7,77,271.484,,1.589,3.467,7,Strike
+5,bottom,41,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.898,0,0,0,1,28.5,7.5,23.9,87.9,81.4,248.954,2033.018,1.589,3.467,13,Ball
+5,bottom,41,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,curveball,0.898,1,0,0,2,-7.7,10.8,23.8,79,72.5,66.556,,1.589,3.467,14,Ball
+5,bottom,41,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.898,2,0,0,3,29.3,7.5,23.8,87.4,80.1,248.404,2109.656,1.589,3.467,11,Ball
+5,bottom,41,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.726,3,0,0,4,30.1,7,23.8,86.5,79.2,237.906,2046.96,1.589,3.467,14,Strike
+5,bottom,41,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.591,3,1,0,5,32.5,5.5,23.8,85.9,78.3,220.231,,1.589,3.467,11,Strike
+5,bottom,41,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.857,3,2,0,6,33.9,6.3,23.8,87.3,79.7,231.35,,1.589,3.467,4,Strike
+5,bottom,41,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,changeup,0.968,3,2,0,7,27.4,10.1,23.8,83.1,76.3,269.714,,1.589,3.467,13,Strike
+5,bottom,41,Carlos Beltran,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,curveball,0.714,3,2,1,8,-4.9,11.8,23.8,78.6,72,29.222,,1.589,3.467,11,Strike
+6,top,42,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,slider,0.939,0,0,0,1,-8.4,6.9,23.8,82.6,75.4,158.531,2526.808,1.504,3.301,7,Strike
+6,top,42,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,slider,0.958,0,1,0,2,-9,12.5,23.9,79.5,73.4,34.753,2778.686,1.504,3.301,14,Ball
+6,top,42,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,slider,0.909,1,1,0,3,-14.3,6.8,23.8,82,75.3,146.336,2595.604,1.504,3.301,11,Ball
+6,top,42,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.926,2,1,0,4,39.3,7.3,23.8,92.4,84.3,250.425,2197.246,1.504,3.301,14,Ball
+6,top,42,Jean Segura,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.93,3,1,1,5,40.5,7.7,23.8,91.2,83.1,252.909,2130.049,1.504,3.301,1,Strike
+6,top,43,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,knuckle curveball,0.624,0,0,0,1,-10.4,13.9,23.8,78.4,71.9,31.774,2705.335,1.504,3.301,9,Strike
+6,top,43,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.934,0,1,0,2,40.5,6,23.8,90.9,83.3,237.333,,1.504,3.301,11,Ball
+6,top,43,Benjamin Gamel,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,slider,0.914,1,1,1,3,-8.8,13.3,23.9,79.5,73.7,28.089,,1.504,3.301,13,Strike
+6,top,44,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,slider,0.981,0,0,0,1,-3.4,10,23.9,85.5,77.6,14.933,,1.513,3.319,8,Strike
+6,top,44,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,changeup,0.902,0,1,0,2,36.3,9.8,23.8,84,76.7,260.237,,1.513,3.319,14,Ball
+6,top,44,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,slider,0.932,1,1,0,3,-9.4,8.1,23.9,82,76.3,131.787,,1.513,3.319,9,Strike
+6,top,44,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,knuckle curveball,0.989,1,2,0,4,-8.6,15.3,23.8,74.7,68.6,27.59,,1.513,3.319,14,Ball
+6,top,44,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.934,2,2,0,5,43.8,7.8,23.8,92.3,83.9,253.309,,1.513,3.319,11,Ball
+6,top,44,Robinson Cano,Seattle Mariners,L,Brad Peacock,Houston Astros,R,4,1,slider,0.941,3,2,1,6,7.8,7.5,23.9,82.9,76.8,220.505,,1.513,3.319,13,Ball
+6,top,45,Nelson Cruz,Seattle Mariners,R,Brad Peacock,Houston Astros,R,4,1,two-seam fastball,0.932,0,0,1,1,39.2,7.4,23.8,92.1,84.6,253.039,,1.535,3.371,8,Strike
+6,bottom,46,Yulieski Gurriel,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.906,0,0,0,1,25.3,6.5,23.8,87.3,80,234.033,2110.366,1.535,3.371,12,Ball
+6,bottom,46,Yulieski Gurriel,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.723,1,0,1,2,27,8.8,23.8,85.4,79.6,265.379,,1.535,3.371,11,Strike
+6,bottom,47,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,changeup,0.982,0,0,0,1,28.8,7.9,23.8,83.5,76.2,243.627,1625.503,1.535,3.371,6,Strike
+6,bottom,47,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,slider,0.905,0,1,0,2,0.8,8.2,23.9,82.9,77.2,205.836,,1.535,3.371,14,Ball
+6,bottom,47,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,sinker,0.896,1,1,0,3,28.5,6.9,23.8,86.9,80.2,240.405,,1.535,3.371,12,Strike
+6,bottom,47,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,changeup,0.915,1,2,0,4,24.3,10,23.9,83.4,77.1,272.997,,1.535,3.371,13,Ball
+6,bottom,47,Marwin Gonzalez,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,4,1,curveball,0.623,2,2,1,5,-8.5,10,23.8,79.5,72.9,91.098,,1.535,3.371,14,Strike
+6,bottom,48,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,5,1,changeup,0.989,0,0,0,1,34.9,8.7,23.8,83.6,76.9,250.337,,1.565,3.411,14,Ball
+6,bottom,48,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,5,1,slider,0.877,1,0,0,2,2.7,8.2,23.9,81.9,77,221.555,,1.565,3.411,12,Ball
+6,bottom,48,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,5,1,sinker,0.713,2,0,0,3,28.5,7.8,23.9,86.6,79.9,248.513,,1.565,3.411,14,Ball
+6,bottom,48,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,5,1,slider,0.881,3,0,0,4,-3.5,9,23.9,81.5,75.6,116.665,2150.19,1.565,3.411,9,Strike
+6,bottom,48,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,5,1,sinker,0.925,3,1,0,5,36.1,6.9,23.8,88.3,81.2,241.906,,1.565,3.411,1,Strike
+6,bottom,48,Evan Gattis,Houston Astros,R,Samuel Gaviglio,Seattle Mariners,R,5,1,curveball,0.791,3,2,1,6,-4.9,11,23.9,79.2,73.4,36.09,,1.565,3.411,4,Strike
+6,bottom,49,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,5,1,curveball,0.936,0,0,0,1,-5.1,12.4,23.9,77.4,71.3,26.538,,1.627,3.549,11,Strike
+6,bottom,49,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,5,1,sinker,0.791,0,1,0,2,22.7,5.8,23.8,86.8,79.5,219.947,2011.298,1.627,3.549,14,Ball
+6,bottom,49,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,5,1,curveball,0.895,1,1,0,3,-10.7,10.8,23.9,79.1,73.2,67.909,2119.121,1.627,3.549,14,Strike
+6,bottom,49,Nori Aoki,Houston Astros,L,Samuel Gaviglio,Seattle Mariners,R,5,1,curveball,0.919,1,2,1,4,-8.2,11.7,23.9,78.6,72.7,45.762,,1.627,3.549,14,Strike
+7,top,50,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,two-seam fastball,0.9,0,0,0,1,38.9,5.8,23.8,90.5,83.1,234.425,2222.911,1.535,3.371,11,Ball
+7,top,50,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,slider,0.922,1,0,0,2,-0.5,7.2,23.8,83,76.6,185.571,,1.535,3.371,11,Strike
+7,top,50,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,slider,0.942,1,1,0,3,-8.7,9.5,23.9,80.6,75.4,78.387,,1.535,3.371,7,Strike
+7,top,50,Kyle Seager,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,two-seam fastball,0.921,1,2,1,4,38.9,8.1,23.8,91.4,84,259.493,,1.535,3.371,11,Strike
+7,top,51,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,5,1,slider,0.943,0,0,0,1,-10,8,23.9,82.3,76.5,126.38,2666.344,1.535,3.371,5,Strike
+7,top,51,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,5,1,knuckle curveball,0.737,0,1,0,2,-7.9,14.5,23.9,77.3,71.7,25.134,,1.535,3.371,13,Ball
+7,top,51,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,5,1,two-seam fastball,0.932,1,1,0,3,44.3,6.7,23.8,92.2,83.7,242.695,,1.535,3.371,14,Strike
+7,top,51,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,5,1,slider,0.906,1,2,0,4,-23.6,7.8,23.8,82,75.1,124.114,,1.535,3.371,12,Strike
+7,top,51,Danny Valencia,Seattle Mariners,R,Brad Peacock,Houston Astros,R,5,1,two-seam fastball,0.91,1,2,1,5,35.1,8.1,23.9,90.7,84.3,262.373,,1.535,3.371,8,Strike
+7,top,52,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,knuckle curveball,0.794,0,0,0,1,-10,13.4,23.8,78.2,72.1,34.02,2682.84,1.589,3.467,11,Ball
+7,top,52,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,four-seam fastball,0.892,1,0,0,2,46.7,5.4,23.8,92.2,84,229.146,,1.589,3.467,14,Ball
+7,top,52,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,two-seam fastball,0.92,2,0,0,3,40.4,6.8,23.8,91.6,84.1,244.407,2364.935,1.589,3.467,13,Ball
+7,top,52,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,two-seam fastball,0.902,3,0,0,4,42.8,6.4,23.8,90.2,82.9,238.806,,1.589,3.467,8,Strike
+7,top,52,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,two-seam fastball,0.914,3,1,0,5,35.5,6.8,23.8,90.7,84,246.15,,1.589,3.467,13,Strike
+7,top,52,Jarrod Dyson,Seattle Mariners,L,Brad Peacock,Houston Astros,R,5,1,two-seam fastball,0.93,3,2,1,6,45.7,6.1,23.8,92.1,84.1,236.598,,1.589,3.467,14,Strike
+7,bottom,53,Alex Bregman,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,5,1,two-seam fastball,0.831,0,0,1,1,32.3,3.9,23.8,93,84.7,211.17,,1.535,3.371,2,Strike
+7,bottom,54,George Springer,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,5,1,two-seam fastball,0.978,0,0,0,1,38.8,4.1,23.8,92.3,83.9,213.446,,1.601,3.49,14,Ball
+7,bottom,54,George Springer,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,5,1,slider,0.899,1,0,0,2,-4,8.3,23.8,84.6,77.7,153.386,2499.729,1.601,3.49,14,Ball
+7,bottom,54,George Springer,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,5,1,slider,0.889,2,0,0,3,4.8,8.5,23.8,82.3,76.6,257.084,,1.601,3.49,2,Strike
+7,bottom,54,George Springer,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,5,1,two-seam fastball,0.98,2,1,0,4,30.3,6,23.8,92.7,85.4,239.522,,1.601,3.49,11,Ball
+7,bottom,54,George Springer,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,5,1,two-seam fastball,0.982,3,1,1,5,35.1,4.9,23.8,93.1,85.5,223.381,,1.601,3.49,8,Strike
+7,bottom,55,Jose Altuve,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,6,1,two-seam fastball,0.98,0,0,0,1,39.7,5.7,23.8,93.3,85.3,235.211,2464.256,1.448,3.104,2,Strike
+7,bottom,55,Jose Altuve,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,6,1,two-seam fastball,0.981,0,1,0,2,43,4.2,23.8,94.1,85.9,216.594,,1.448,3.104,13,Ball
+7,bottom,55,Jose Altuve,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,6,1,two-seam fastball,0.925,1,1,0,3,34.3,3.9,23.8,93.4,85.3,213.151,,1.448,3.104,11,Strike
+7,bottom,55,Jose Altuve,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,6,1,four-seam fastball,0.79,1,2,1,4,29.4,3.4,23.8,95.2,87.4,205.877,,1.448,3.104,5,Strike
+7,bottom,56,Josh Reddick,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,1,four-seam fastball,0.7,0,0,0,1,30.8,3.6,23.8,93.5,85.6,206.996,,1.589,3.467,5,Strike
+7,bottom,56,Josh Reddick,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,1,slider,0.9,0,1,0,2,-2.2,8,23.9,83.9,78.5,176.544,2472.618,1.589,3.467,14,Strike
+7,bottom,56,Josh Reddick,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,1,slider,0.901,0,2,0,3,-1.8,9.8,23.8,83.7,77,352.924,2394.046,1.589,3.467,14,Ball
+7,bottom,56,Josh Reddick,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,1,four-seam fastball,0.79,1,2,0,4,27.7,3.7,23.8,94,86.3,207.04,2280.434,1.589,3.467,11,Ball
+7,bottom,56,Josh Reddick,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,1,two-seam fastball,0.786,2,2,1,5,35.9,3.4,23.8,94.2,85.9,208.86,,1.589,3.467,3,Strike
+8,top,57,Carlos Ruiz,Seattle Mariners,R,James Hoyt,Houston Astros,R,6,1,four-seam fastball,0.887,0,0,0,1,40.3,5.6,23.8,93.4,85.6,233.453,2107.429,1.504,3.301,11,Ball
+8,top,57,Carlos Ruiz,Seattle Mariners,R,James Hoyt,Houston Astros,R,6,1,four-seam fastball,0.849,1,0,0,2,37,6.9,23.8,92.8,85.6,247.884,2264.74,1.504,3.301,4,Strike
+8,top,57,Carlos Ruiz,Seattle Mariners,R,James Hoyt,Houston Astros,R,6,1,slider,0.897,1,1,0,3,-0.1,9.9,23.9,84.5,78.6,349.542,,1.504,3.301,14,Strike
+8,top,57,Carlos Ruiz,Seattle Mariners,R,James Hoyt,Houston Astros,R,6,1,slider,0.9,1,2,0,4,-0.9,9.6,23.9,84.6,78.2,350.097,2714.112,1.504,3.301,14,Ball
+8,top,57,Carlos Ruiz,Seattle Mariners,R,James Hoyt,Houston Astros,R,6,1,four-seam fastball,0.889,2,2,1,5,43.3,6.6,23.8,94.1,86.4,244.148,,1.504,3.301,1,Strike
+8,top,58,Guillermo Heredia,Seattle Mariners,R,James Hoyt,Houston Astros,R,6,1,four-seam fastball,0.893,0,0,0,1,43,5.7,23.8,94.3,86.5,233.16,,1.504,3.301,13,Strike
+8,top,58,Guillermo Heredia,Seattle Mariners,R,James Hoyt,Houston Astros,R,6,1,four-seam fastball,0.894,0,1,1,2,42.8,5.9,23.8,94.6,87,237.557,,1.504,3.301,5,Strike
+8,top,59,Jean Segura,Seattle Mariners,R,James Hoyt,Houston Astros,R,6,1,four-seam fastball,0.893,0,0,1,1,45.1,5.3,23.8,94.4,86.1,230.065,,1.504,3.301,1,Strike
+8,top,60,Benjamin Gamel,Seattle Mariners,L,Reymin Guduan,Houston Astros,L,6,2,slider,0.909,0,0,0,1,6.2,8.6,23.9,86,79.6,277.311,,1.513,3.319,8,Strike
+8,top,60,Benjamin Gamel,Seattle Mariners,L,Reymin Guduan,Houston Astros,L,6,2,slider,0.906,0,1,0,2,4.5,8,23.9,87.4,81,267.724,2496.404,1.513,3.319,1,Strike
+8,top,60,Benjamin Gamel,Seattle Mariners,L,Reymin Guduan,Houston Astros,L,6,2,slider,0.907,0,2,1,3,5.5,8.2,23.9,86.4,79.9,262.564,,1.513,3.319,6,Strike
+8,top,61,Robinson Cano,Seattle Mariners,L,Reymin Guduan,Houston Astros,L,6,2,four-seam fastball,0.922,0,0,0,1,-32,3,23.8,96.7,88,159.547,,1.535,3.371,8,Strike
+8,top,61,Robinson Cano,Seattle Mariners,L,Reymin Guduan,Houston Astros,L,6,2,slider,0.908,0,1,0,2,4.9,8.5,23.9,86.9,80.3,281.736,2523.434,1.535,3.371,13,Strike
+8,top,61,Robinson Cano,Seattle Mariners,L,Reymin Guduan,Houston Astros,L,6,2,slider,0.863,0,2,0,3,4.5,7.4,23.9,90.3,83.3,218.77,,1.535,3.371,13,Ball
+8,top,61,Robinson Cano,Seattle Mariners,L,Reymin Guduan,Houston Astros,L,6,2,four-seam fastball,0.928,1,2,1,4,-35.9,3.6,23.8,96.2,87.5,151.376,2556.847,1.535,3.371,8,Strike
+8,top,62,Nelson Cruz,Seattle Mariners,R,Luke Gregerson,Houston Astros,R,6,2,slider,0.902,0,0,0,1,-11.5,10.1,23.9,81.3,75.2,72.628,,1.589,3.467,6,Strike
+8,top,62,Nelson Cruz,Seattle Mariners,R,Luke Gregerson,Houston Astros,R,6,2,slider,0.9,0,1,0,2,-10.6,9.2,23.8,82.1,75.8,91.76,,1.589,3.467,14,Strike
+8,top,62,Nelson Cruz,Seattle Mariners,R,Luke Gregerson,Houston Astros,R,6,2,slider,0.901,0,2,0,3,-10.4,9.9,23.9,82,75.5,73.187,2608.861,1.589,3.467,14,Ball
+8,top,62,Nelson Cruz,Seattle Mariners,R,Luke Gregerson,Houston Astros,R,6,2,two-seam fastball,0.896,1,2,0,4,24.4,7.1,23.8,90.7,83.4,250.594,,1.589,3.467,14,Ball
+8,top,62,Nelson Cruz,Seattle Mariners,R,Luke Gregerson,Houston Astros,R,6,2,slider,0.902,2,2,1,5,-14.4,9.3,23.9,82.3,76.2,90.819,,1.589,3.467,14,Strike
+8,bottom,63,Carlos Beltran,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,2,four-seam fastball,0.601,0,0,0,1,29.3,3.7,23.8,92.1,83.9,206.981,2368.807,1.565,3.411,12,Strike
+8,bottom,63,Carlos Beltran,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,2,two-seam fastball,0.965,0,1,0,2,30.9,4.2,23.8,93.8,86.2,213.33,2470.16,1.565,3.411,13,Ball
+8,bottom,63,Carlos Beltran,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,2,slider,0.9,1,1,0,3,-1.2,10.6,23.8,82.7,75.7,357.934,,1.565,3.411,9,Strike
+8,bottom,63,Carlos Beltran,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,2,two-seam fastball,0.982,1,2,1,4,29.8,5.4,23.8,92.1,85.2,231.401,,1.565,3.411,11,Strike
+8,bottom,64,Yulieski Gurriel,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,6,2,slider,0.903,0,0,0,1,-1.3,9.8,23.9,83.1,77.3,4.023,,1.565,3.411,4,Strike
+8,bottom,64,Yulieski Gurriel,Houston Astros,R,Emilio Pagan,Seattle Mariners,R,6,2,two-seam fastball,0.968,0,1,1,2,40.5,3.9,23.8,92.6,84.9,213.835,,1.565,3.411,2,Strike
+8,bottom,65,Marwin Gonzalez,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,2,slider,0.901,0,0,0,1,0.1,10.8,23.9,82.8,76.7,355.78,,1.535,3.371,7,Strike
+8,bottom,65,Marwin Gonzalez,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,2,two-seam fastball,0.982,0,1,0,2,35.6,5.3,23.8,93.5,85.7,226.371,,1.535,3.371,13,Ball
+8,bottom,65,Marwin Gonzalez,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,2,four-seam fastball,0.939,1,1,0,3,27.7,3.5,23.8,93.3,85.1,205.212,2343.238,1.535,3.371,6,Strike
+8,bottom,65,Marwin Gonzalez,Houston Astros,L,Emilio Pagan,Seattle Mariners,R,6,2,slider,0.893,1,2,1,4,-5.1,7.4,23.8,84.3,77.3,163.028,,1.535,3.371,9,Strike
+9,top,66,Kyle Seager,Seattle Mariners,L,Luke Gregerson,Houston Astros,R,6,2,slider,0.902,0,0,0,1,-10.8,9.9,23.8,80.1,73.9,85.579,,1.535,3.371,9,Ball
+9,top,66,Kyle Seager,Seattle Mariners,L,Luke Gregerson,Houston Astros,R,6,2,two-seam fastball,0.908,1,0,0,2,22.8,7.9,23.9,89.2,83.1,261.534,,1.535,3.371,13,Strike
+9,top,66,Kyle Seager,Seattle Mariners,L,Luke Gregerson,Houston Astros,R,6,2,slider,0.903,1,1,0,3,-14.2,10.2,23.8,80.9,74.4,76.414,,1.535,3.371,11,Ball
+9,top,66,Kyle Seager,Seattle Mariners,L,Luke Gregerson,Houston Astros,R,6,2,slider,0.902,2,1,0,4,-9.5,10,23.8,81,74.7,69.394,,1.535,3.371,5,Strike
+9,top,66,Kyle Seager,Seattle Mariners,L,Luke Gregerson,Houston Astros,R,6,2,slider,0.904,2,2,0,5,-17.4,10,23.9,81.3,75.1,89.464,2803.989,1.535,3.371,14,Ball
+9,top,66,Kyle Seager,Seattle Mariners,L,Luke Gregerson,Houston Astros,R,6,2,two-seam fastball,0.899,3,2,1,6,20.5,8.7,23.9,89,83.3,276.831,2302.681,1.535,3.371,13,Strike
+9,top,67,Danny Valencia,Seattle Mariners,R,Luke Gregerson,Houston Astros,R,6,2,slider,0.902,0,0,0,1,-8.6,10.5,23.8,81.1,74.6,55.934,2693.378,1.589,3.467,11,Strike
+9,top,67,Danny Valencia,Seattle Mariners,R,Luke Gregerson,Houston Astros,R,6,2,two-seam fastball,0.903,0,1,1,2,18.4,8.1,23.9,88.4,82.5,271.351,,1.589,3.467,11,Strike
+9,top,68,Jarrod Dyson,Seattle Mariners,L,Luke Gregerson,Houston Astros,R,6,2,two-seam fastball,0.906,0,0,0,1,16.5,7.5,23.8,89.5,82.5,257.024,2319.332,1.589,3.467,2,Strike

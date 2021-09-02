@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IB1 
+Relation:     Cleaned_mariners-vs-astros
+Instances:    264
+Attributes:   28
+              inning
+              top_or_bottom
+              atbat_num_within_game
+              batter_name
+              batter_team
+              stand
+              pitcher_name
+              pitcher_team
+              p_throws
+              home_team_runs
+              away_team_runs
+              pitch_type_name
+              pitch_type_confidence
+              balls
+              strikes
+              last_pitch_in_atbat
+              pitch_num_within_atbat
+              break_angle
+              break_length
+              break_y
+              start_speed
+              end_speed
+              spin_dir
+              spin_rate
+              sz_bot
+              sz_top
+              zone
+              decision
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 classifier
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         141               53.4091 %
+Incorrectly Classified Instances       123               46.5909 %
+Kappa statistic                          0.0465
+Mean absolute error                      0.4659
+Root mean squared error                  0.6826
+Relative absolute error                100.5923 %
+Root relative squared error            141.8778 %
+Total Number of Instances              264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.560    0.510    0.657      0.560    0.605      0.047    0.525     0.648     Strike
+                 0.490    0.440    0.388      0.490    0.433      0.047    0.525     0.376     Ball
+Weighted Avg.    0.534    0.485    0.560      0.534    0.542      0.047    0.525     0.549     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 94 74 |  a = Strike
+ 49 47 |  b = Ball
+
